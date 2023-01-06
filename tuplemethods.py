@@ -8,6 +8,6 @@
 
 tup1 = (0,1,2,3,2,3,1,3,2,1,5,3,6,7,3)
 # res = tup1.count(3)
-res = tup1.index(3,4,8)
+res = tup1.index(3,4,8)                  
 print("index of 3 is:",res)
 # print("Count of 3 is:",res)
