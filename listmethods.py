@@ -11,7 +11,7 @@ print(l)
 #l.insert(1,899)                 #it will insert the element at the given index
 
 m = [900,100,1100]
-k = l + m
-print(k)
-# l.extend(m)
+# k = l + m                      #it will add both the list
+# print(k)
+# l.extend(m)                    #it will extend or add both the list
 print(l)
