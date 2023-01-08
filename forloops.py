@@ -3,11 +3,12 @@
 #         continue;                        #it will skip 20 and print all the numbers in range
 #     print(i,end=" ")
 
-# colors = ["red","green","blue","yellow"]
-# for color in colors:
-#     print(color)
-#     for i in color:
-#         print(i)
+
+colors = ["red","green","blue","yellow"]
+for color in colors:
+    print(color)
+    for i in color:
+        print(i)
 
 
 for i in range(0,10):
