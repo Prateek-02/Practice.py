@@ -1,10 +1,11 @@
 class Student:
     pass
 
+#instance
 harry = Student()
 larry = Student()
 
-
+#instance variables
 harry.name = "harry"
 harry.std = 12
 harry.sec = 1
