@@ -23,7 +23,7 @@ print(x)
 x = 10             #global variable
 
 def my_func():
-    global x
+    global x       #change the value of global x
     x = 4
     y = 5          #local variable
     print(y)
