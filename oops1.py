@@ -1,17 +1,18 @@
-class Student:
-    pass
+class Person:
+    name = "Harry"
+    occu = "Software engg"
+    networth = 10
+    def info(self):
+        print(f"{self.name} is a {self.occu} having net worth {self.networth}")
 
-#instance
-harry = Student()
-larry = Student()
+a = Person()
+b = Person()
+a.name = "Shubham"
+a.occu = "Accountant"
 
-#instance variables
-harry.name = "harry"
-harry.std = 12
-harry.sec = 1
-larry.name = "larry"
-larry.std = 10
-larry.sec = 2
+b.name = "Nikita"
+b.occu = "HR"
 
-print(harry.name,harry.std,harry.sec)
-print(larry.name,larry.std,larry.sec)
+# print(a.name,a.occu)
+a.info()
+b.info()
