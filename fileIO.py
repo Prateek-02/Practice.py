@@ -11,9 +11,11 @@ f = open('myfile.txt', 'w')
 f.write("Hello World!")
 f.close()
 
-
+#Or
 with open('myfile.txt', 'a') as f:
     f.write("Hey Good morning")
+
+
 
 #Appending a file
 f = open('myfile.txt', 'a')
